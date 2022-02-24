@@ -9,7 +9,7 @@ import SwiftUI
 
 class JokeViewModel: ObservableObject {
 
-  var currentJoke: Joke {
+  private var currentJoke: Joke {
     return Joke.allJokes[currentIndex]
   }
 
@@ -21,6 +21,10 @@ class JokeViewModel: ObservableObject {
 
   var jokeAnswer: String {
     return currentJoke.answer
+  }
+
+  var jokeImageURL: URL? {
+    return currentJoke.imageURL
   }
 
   func nextJoke() {
