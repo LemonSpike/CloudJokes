@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A539853F27C78F0900EDB548 /* JokeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A539853E27C78F0900EDB548 /* JokeViewModel.swift */; };
+		A539854027C78F0900EDB548 /* JokeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A539853E27C78F0900EDB548 /* JokeViewModel.swift */; };
+		A5A0936527C7915A00C8AF2A /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0936427C7915A00C8AF2A /* Joke.swift */; };
+		A5A0936627C7915A00C8AF2A /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0936427C7915A00C8AF2A /* Joke.swift */; };
 		A5D5DBBB27C6A72D00E9B6CC /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D5DBBA27C6A72D00E9B6CC /* Tests_iOS.swift */; };
 		A5D5DBBD27C6A72D00E9B6CC /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D5DBBC27C6A72D00E9B6CC /* Tests_iOSLaunchTests.swift */; };
 		A5D5DBC727C6A72D00E9B6CC /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D5DBC627C6A72D00E9B6CC /* Tests_macOS.swift */; };
@@ -37,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A539853E27C78F0900EDB548 /* JokeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewModel.swift; sourceTree = "<group>"; };
+		A5A0936427C7915A00C8AF2A /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 		A5D5DBA227C6A72B00E9B6CC /* CloudJokesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudJokesApp.swift; sourceTree = "<group>"; };
 		A5D5DBA327C6A72B00E9B6CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A5D5DBA427C6A72D00E9B6CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,6 +105,8 @@
 			children = (
 				A5D5DBA227C6A72B00E9B6CC /* CloudJokesApp.swift */,
 				A5D5DBA327C6A72B00E9B6CC /* ContentView.swift */,
+				A539853E27C78F0900EDB548 /* JokeViewModel.swift */,
+				A5A0936427C7915A00C8AF2A /* Joke.swift */,
 				A5D5DBA427C6A72D00E9B6CC /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -300,6 +308,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5D5DBCC27C6A72D00E9B6CC /* ContentView.swift in Sources */,
+				A539853F27C78F0900EDB548 /* JokeViewModel.swift in Sources */,
+				A5A0936527C7915A00C8AF2A /* Joke.swift in Sources */,
 				A5D5DBCA27C6A72D00E9B6CC /* CloudJokesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +319,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5D5DBCD27C6A72D00E9B6CC /* ContentView.swift in Sources */,
+				A539854027C78F0900EDB548 /* JokeViewModel.swift in Sources */,
+				A5A0936627C7915A00C8AF2A /* Joke.swift in Sources */,
 				A5D5DBCB27C6A72D00E9B6CC /* CloudJokesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
