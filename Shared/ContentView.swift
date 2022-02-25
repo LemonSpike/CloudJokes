@@ -32,7 +32,6 @@ struct ContentView: View {
           .multilineTextAlignment(.center)
         Spacer()
       }
-      .navigationTitle("Cloud Jokes")
     }
   }
 }
